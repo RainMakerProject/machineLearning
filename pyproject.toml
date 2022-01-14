@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "machinelearning"
+version = "0.1.0"
+description = ""
+authors = ["Satoshi SUZUKI <studio3104.com@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+TA-Lib = "^0.4.24"
+lightgbm = "^3.3.2"
+seaborn = "^0.11.2"
+numba = "^0.55.0"
+ccxt = "^1.67.56"
+crypto_data_fetcher = {git = "https://github.com/richmanbtc/crypto_data_fetcher.git", rev = "v0.0.15"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
